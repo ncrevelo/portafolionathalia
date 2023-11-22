@@ -75,7 +75,7 @@ const Responsive = () => {
     borderRadius: "8px",
   };
 
-  const images = [imagen1, imagen2,  imagen4, imagen5, imagen6, imagen7];
+  const images = [imagen1, imagen2,   imagen4, imagen5, imagen6, imagen7];
   
   
 
