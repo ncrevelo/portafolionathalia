@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { languageData } from '../data/data';
 import { useState, useEffect } from 'react';
-import Logotipo from "src/assets/logotipo.webp"
+import Logotipo from "../assets/logotipo.webp"
 
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 

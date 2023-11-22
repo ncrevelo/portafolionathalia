@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { useState, useEffect } from 'react';
-import Portada from "src/assets/portada2.png"
+import Portada from "../assets/portada2.png"
 
 
 const About = () => {
