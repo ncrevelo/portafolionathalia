@@ -7,7 +7,7 @@ import imagen1 from '../assets/carrusel/imagen1.jpg';
 import imagen2 from '../assets/carrusel/imagen2.jpg';
 //import imagen3 from '../assets/carrusel/imagen3.jpg';
 import imagen4 from '../assets/carrusel/imagen4.jpg';
-import imagen5 from '../assets/carrusel/imagen5.jpg';
+//import imagen5 from '../assets/carrusel/imagen5.jpg';
 import imagen6 from '../assets/carrusel/imagen6.jpg';
 import imagen7 from '../assets/carrusel/imagen7.jpg';
 
@@ -75,7 +75,7 @@ const Responsive = () => {
     borderRadius: "8px",
   };
 
-  const images = [imagen1, imagen2,   imagen4, imagen5, imagen6, imagen7];
+  const images = [imagen1, imagen2,   imagen4,  imagen6, imagen7];
   
   
 
