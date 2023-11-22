@@ -64,17 +64,19 @@ const Responsive = () => {
     border: "1px solid #ddd",
     borderRadius: "8px",
     margin: "0 8px",
-    boxSizing: "border-box",
+    boxSizing: "border-box" as const,
   };
 
   const imageStyles = {
     width: "100%",
     height: "100%",
-    objectFit: "cover",
+    objectFit: "cover" as const,
     borderRadius: "8px",
   };
 
   const images = [imagen1, imagen2, imagen3, imagen4, imagen5, imagen6, imagen7];
+  
+  
 
   return (
     <section className="bg-gradient-to-r from-pinkGradient to-violetGradient">
