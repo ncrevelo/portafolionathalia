@@ -1,5 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { useState, useEffect } from 'react';
+import Portada from "src/assets/portada.png"
+
 
 
 const Home = () => {
@@ -31,7 +33,7 @@ const Home = () => {
         </section>
         </section>
         <section className="bg-pinkbg flex flex-col items-center justify-end h-screen">
-  <img className='h-[600px]  mb-0 h-w-full' src="src/assets/portada.png" alt="Portada" />
+  <img className='h-[600px]  mb-0 h-w-full' src={Portada} alt="Portada" />
 </section>
 </section>
 )
@@ -39,7 +41,7 @@ const Home = () => {
  const mobileView =(
     <section className="grid grid-rows-2 lg:grid-cols-2 lg:h-screen">
       <section className="bg-pinkbg lg:row-auto lg:col-span-1 flex items-end justify-center lg:justify-end">
-        <img className=' lg:h-[600px] lg:w-auto w-80 h-80 justify-end items-end' src="src/assets/portada.png" alt="Portada" />
+        <img className=' lg:h-[600px] lg:w-auto w-80 h-80 justify-end items-end' src={Portada} alt="Portada" />
       </section>
 
       <section className="bg-gradient-to-r from-pinkGradient to-violetGradient py-4 flex flex-col items-center lg:justify-center lg:items-start lg:py-0 lg:pl-10 lg:col-span-1">

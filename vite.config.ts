@@ -12,6 +12,6 @@ export default defineConfig({
     // Configuración para manejar imágenes
   // Aquí puedes ajustar según las extensiones de tus imágenes
   // En este caso, se incluye la extensión .jpg
-  assetsInclude: [/\.(png|jpe?g|gif|JPG|webp|svg|mp4)$/i],
+  assetsInclude: [/\.(png|jpe?g|gif|webp|svg|mp4)$/i],
 
 })

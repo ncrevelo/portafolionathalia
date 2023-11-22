@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { languageData } from '../data/data';
 import { useState, useEffect } from 'react';
+import Logotipo from "src/assets/logotipo.webp"
 
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 
@@ -34,7 +35,7 @@ const Header = () => {
         <section className='h-full w-full bg-gradient-to-r from-pinkGradient to-violetGradient ' >
 
         <section className='flex items-end justify-between  pr-4'>
-          <img  className= " h-12 w-auto pt-1" src="src/assets/logotipo.webp" alt="logo" />
+          <img  className= " h-12 w-auto pt-1" src= {Logotipo}alt="logo" />
 
         <select
         defaultValue={i18n.language}
